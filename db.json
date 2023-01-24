@@ -1,0 +1,120 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "laptops": [
+    {
+      "id": 1,
+      "name": "Macbook  Air 2020",
+      "price": "100000",
+      "ram": "8GB Unified Memory",
+      "storage": "256 GB",
+      "processor": "M1 Processor",
+      "display": " 13' Inches",
+      "img": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/macbook-air-space-gray-select-201810?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1633027804000"
+    },
+    {
+      "id": 2,
+      "name": "Macbook  Air 2022",
+      "price": "120000",
+      "ram": "8GB Unified Memory",
+      "storage": "256 GB",
+      "processor": "M2 Processor",
+      "display": " 13' Inches",
+      "img": "https://m.media-amazon.com/images/I/71vFKBpKakL._SL1500_.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Macbook  Air 2022",
+      "price": "150000",
+      "ram": "16GB Unified Memory",
+      "storage": "512 GB",
+      "processor": "M2 Processor",
+      "display": " 13' Inches",
+      "img": "https://www.apple.com/newsroom/images/product/mac/standard/Apple_new-macbookair-wallpaper-screen_11102020_big.jpg.large.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Macbook Pro 2020",
+      "price": "120000",
+      "ram": "8GB Unified Memory",
+      "storage": "256 GB",
+      "processor": "M1 Processor",
+      "display": " 13' Inches",
+      "img": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/mbp16-spacegray-select-202110?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1632788574000"
+    },
+    {
+      "id": 5,
+      "name": "Macbook Pro 2022",
+      "price": "170000",
+      "ram": "16GB Unified Memory",
+      "storage": "512 GB",
+      "processor": "M2 Processor",
+      "display": " 14' Inches",
+      "img": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/mbp-spacegray-select-202206?wid=904&hei=840&fmt=jpeg&qlt=90&.v=1653493200207"
+    },
+    {
+      "id": 6,
+      "name": "Macbook Pro 2022",
+      "price": "200000",
+      "ram": "16GB Unified Memory",
+      "storage": "1 TB",
+      "processor": "M2 Processor",
+      "display": " 14' Inches",
+      "img": "https://images.macrumors.com/t/PV_LL2AlRJvaRvbuXCTUOuDpwzU=/800x0/smart/article-new/2013/09/16-inch-macbook-pro.jpg?lossy"
+    }
+  ],
+  "smartphone": [
+    {
+      "id": 1,
+      "name": "iPhone 13 Mini",
+      "price": "64990",
+      "ram": "4GB ",
+      "storage": "128 GB",
+      "processor": "A15 Bionic",
+      "display": "5.5' Inches"
+    },
+    {
+      "id": 2,
+      "name": "iPhone 13 Mini",
+      "price": "64990",
+      "ram": "4GB ",
+      "storage": "128 GB",
+      "processor": "A15 Bionic",
+      "display": "5.5' Inches"
+    },
+    {
+      "id": 3,
+      "name": "iPhone 13 Mini",
+      "price": "64990",
+      "ram": "4GB ",
+      "storage": "128 GB",
+      "processor": "A15 Bionic",
+      "display": "5.5' Inches"
+    },
+    {
+      "id": 4,
+      "name": "iPhone 13 Mini",
+      "price": "64990",
+      "ram": "4GB ",
+      "storage": "128 GB",
+      "processor": "A15 Bionic",
+      "display": "5.5' Inches"
+    }
+  ],
+  "cart": []
+}
