@@ -18,6 +18,16 @@ export class ProductsService {
     return resp;
   }
 
+  getallsmartphone(){
+    let resp: any = this.http.get(this.productslist+"/smartphone");
+    return resp;
+  }
+
+  addtoproducts(laptops: any){
+    let resp:any=this.http.post(this.productslist+"/laptops",laptops)
+    return resp;
+  }
+
   addtocart(product: any){
     let resp:any=this.http.post(this.productslist+"/cart/",product)
     return resp;

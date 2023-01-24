@@ -1,0 +1,63 @@
+    <div class="form-group mt-3">
+        <label for="name">Name:</label>
+        <input #name id="name" type="text" class="form-control"/>
+        <div *ngIf="f['name'].touched && f['name'].invalid" class="alert alert-danger">
+            <div *ngIf="f['name'].errors && f['name'].errors['required']">name is required.
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="ram">Ram:</label>
+        <input #ram id="ram" type="text" class="form-control"/>
+        <div *ngIf="f['ram'].touched && f['ram'].invalid" class="alert alert-danger">
+            <div *ngIf="f['ram'].errors && f['ram'].errors['required']">name is required.
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="price">Price:</label>
+        <input #price id="price" type="text" class="form-control"/>
+        <div *ngIf="f['price'].touched && f['price'].invalid" class="alert alert-danger">
+            <div *ngIf="f['price'].errors && f['price'].errors['required']">name is required.
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="storage">Storage:</label>
+        <input #storage id="storage" type="text" class="form-control"/>
+        <div *ngIf="f['storage'].touched && f['storage'].invalid" class="alert alert-danger">
+            <div *ngIf="f['storage'].errors && f['storage'].errors['required']">name is required.
+            </div>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="processor">Processor:</label>
+        <input #processor id="processor" type="text" class="form-control"/>
+        <div *ngIf="f['processor'].touched && f['processor'].invalid" class="alert alert-danger">
+            <div *ngIf="f['processor'].errors && f['processor'].errors['required']">name is required.
+            </div>
+        </div>
+    </div>
+    <div class="form-group mb-3">
+        <label for="display">Display:</label>
+        <input #display id="display" type="text" class="form-control"/>
+        <div *ngIf="f['display'].touched && f['display'].invalid" class="alert alert-danger">
+            <div *ngIf="f['display'].errors && f['display'].errors['required']">name is required.
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="form-group">
+        <label for="avatar" class="col-md-4 col-form-label">Add Photo</label>
+        <div class="col-auto">
+            <textarea #avatar type="text" id="avatar" class="form-control" placeholder="link"> </textarea>
+            <div *ngIf="f['avatar'].touched && f['avatar'].invalid" class="alert alert-danger">
+                <div *ngIf="f['avatar'].errors && f['avatar'].errors['required']">Photo is required.
+                </div>
+            </div>
+        </div>
+    </div> <br> -->
+<div class="modal-footer">
+    <button type="button" data-bs-dismiss="modal" class="btn btn-secondary">Close</button>
+    <button type="button" data-bs-dismiss="modal" type="submit" (click)="submit(laptops)" class="btn btn-primary">Add</button>
+</div>

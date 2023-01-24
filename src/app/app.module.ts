@@ -8,6 +8,9 @@ import { ProductComponent } from './product/product.component';
 import { FilterproductComponent } from './filterproduct/filterproduct.component';
 import { HttpClientModule } from '@angular/common/http';
 import { CartComponent } from './cart/cart.component';
+import { AddProductComponent } from './add-product/add-product.component';
+import { SmartphoneComponent } from './smartphone/smartphone.component';
+import { LaptopComponent } from './laptop/laptop.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { CartComponent } from './cart/cart.component';
     CategoryComponent,
     ProductComponent,
     FilterproductComponent,
-    CartComponent
+    CartComponent,
+    AddProductComponent,
+    SmartphoneComponent,
+    LaptopComponent
   ],
   imports: [
     BrowserModule,
